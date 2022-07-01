@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGOOSE,
 
 app.use(Express.json());
 
-app.use(Express.static("view/build"))
+app.use(Express.static("view/build"));
 
 app.use(router);
 
