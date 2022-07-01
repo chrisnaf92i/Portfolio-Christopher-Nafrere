@@ -1,0 +1,31 @@
+{
+  "name": "portfolio-christopher-nafrere",
+  "version": "1.0.0",
+  "description": "Portfolio de Christopher Nafrere, un développeur junior de jeux vidéo, d'application web et d'application mobile",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "view": "cd view && npm start",
+    "build":"cd view && npm build",
+    "install-client":"cd && npm install",
+    "heroku-postbuild":"npm run install-client && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisnaf92i/Portfolio-Chrsitopher-Nafrere.git"
+  },
+  "author": "Christopher Nafrere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisnaf92i/Portfolio-Chrsitopher-Nafrere/issues"
+  },
+  "homepage": "https://github.com/chrisnaf92i/Portfolio-Chrsitopher-Nafrere#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1",
+    "nodemon": "^2.0.18"
+  },
+  "type": "module"
+}
