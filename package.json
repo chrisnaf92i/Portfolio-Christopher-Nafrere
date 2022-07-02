@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
+    "sass": "cd view && npm run sass",
     "view": "cd view && npm start",
     "build":"cd view && npm build",
     "install-client":"cd && npm install",
