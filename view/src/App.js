@@ -5,6 +5,7 @@ import Contact from './page/Contact';
 import Home from './page/Home';
 import MyGames from './page/MyGames';
 import MyWebsite from './page/MyWebsites';
+import WebsitePage from './page/WebsitePage';
 import Who from './page/Who';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path="/jeux-video" element={<MyGames/>}/>
           <Route path="/qui-suis-je" element={<Who/>}/>
           <Route path="/contact" element={<Contact/>}/>
+          <Route path="/site-web/:id" element={<WebsitePage/>}/>
         </Routes>
       </div>
     </main>

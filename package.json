@@ -7,7 +7,7 @@
     "start": "nodemon server.js",
     "sass": "cd view && npm run sass",
     "view": "cd view && npm start",
-    "build":"cd view && npm build",
+    "build":"cd view && npm run build",
     "install-client":"cd && npm install",
     "heroku-postbuild":"npm run install-client && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,5 +28,8 @@
     "mongoose": "^6.4.1",
     "nodemon": "^2.0.18"
   },
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node":"17.9.0"
+  }
 }

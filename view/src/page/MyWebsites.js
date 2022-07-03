@@ -16,7 +16,7 @@ export default function MyWebsite() {
   return (
     <section className='WebsitePage'>
       {listWebsites.map((dataSite) => {
-        return <Website data={dataSite}/>
+        return <Website key={dataSite._id} data={dataSite}/>
       })}
     </section>
   )
