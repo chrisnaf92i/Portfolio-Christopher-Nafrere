@@ -8,7 +8,7 @@
     "sass": "cd view && npm run sass",
     "view": "cd view && npm start",
     "build":"cd view && npm run build",
-    "install-view":"cd && npm install",
+    "install-view":"cd view && npm install",
     "heroku-postbuild":"npm run install-view && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
