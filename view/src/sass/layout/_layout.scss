@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        width:9vw;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        color:white;
+        a {
+            margin:16px;
+        }
+    }
+}
